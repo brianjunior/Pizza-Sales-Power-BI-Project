@@ -1,0 +1,16 @@
+KPIs
+
+Total Revenue
+Total Revenue = sum(pizza_sales[total_price])
+
+Average Order Value
+Avg Order Value = [Total Revenue]/[Total Orders] 
+
+Total Pizzas Sold
+Total Pizzas Sold = SUM(pizza_sales[quantity])
+
+Total Orders
+Total Orders = DISTINCTCOUNT(pizza_sales[order_id])
+
+Average Pizzas Per Order
+Avg Pizzas Per Order = [Total Pizzas Sold]/[Total Orders]
